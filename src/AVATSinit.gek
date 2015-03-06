@@ -1,0 +1,5 @@
+scn AVATSInit
+
+Begin GameWorld
+    ; initialise
+End
