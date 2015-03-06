@@ -1,0 +1,7 @@
+scn AVATSMain
+
+Begin GameMode
+    if GetVATSMode == 1
+        showMessage "Entered AVATS mode"
+    endIf
+END
