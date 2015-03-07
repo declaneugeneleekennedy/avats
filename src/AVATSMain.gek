@@ -1,6 +1,6 @@
 scn AVATSMain
 
-Begin GameMode
+Begin GameWorld
     if GetVATSMode == 1
         showMessage "Entered AVATS mode"
     endIf

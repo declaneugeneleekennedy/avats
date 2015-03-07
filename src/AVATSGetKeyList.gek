@@ -11,25 +11,24 @@ set key_X to sv_Construct "x"
 set key_Y to sv_Construct "y"
 
 array_var keys
-let keys := ar_List key_A, key_B, key_X, key_Y
+Let keys := ar_List key_A, key_B, key_X, key_Y
 
 Begin Function {len}
     array_var keyList
-    let keyList := ar_Construct Map
+    Let keyList := ar_Construct Map
     
     Float i
-    let i := 0
+    Let i := 0
     
     Float k
     
     while(ar_Size keyList < len)
-        let k := rand 0 3
+        Let k := rand 0 3
         
-        let keyList[i] := keys[k]
-        let i = i + 1
+        Let keyList[i] := keys[k]
+        Let i = i + 1
     loop
     
     SetFunctionValue keyList
     return
-End
-        
+End       
